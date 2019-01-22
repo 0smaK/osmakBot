@@ -1,6 +1,7 @@
 # coding=utf-8
 #!/usr/bin/python
 
+# Muchos de estos import ya no se utilizan, pero por alguna razón no he actualizado el código :/
 import telebot
 import requests
 from telebot import types
@@ -15,7 +16,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-token = 'aaa'
+token = 'aaa' #aqui tienes que poner tu token otorgado 
 bot = telebot.TeleBot(token)
 
 commands = {  # Descripción usada en el comando "/help"
